@@ -121,16 +121,13 @@ section p,
   margin: 10% auto;
 }
 
-.main-h1 {
-  text-align: center;
-  
-}
+
 
 .fake-btn {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 0.5px solid lightgray;
 }
 .clicked {
   border: 1px transparent;
@@ -143,12 +140,62 @@ section p,
     /* Bottom Left */ inset 2.5px 2.5px 0 #0061ff; /* Top Left */
 }
 
-main p,
+main p, span,
 .fake-btn {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
+  
+  
 }
 
-.main-box {
+.main-h2 h2{
+    margin-bottom: 4%;
+    font-size: 50px;
+
+
 }
+
+main span{
+    padding-right: 1%;
+}
+
+
+
+
+.main-h1 h1{
+    font-size: 50px;
+}
+
+.box-plan{
+    
+    
+    background-color: #b4d0e7;
+}
+
+.card{
+    border: 1px solid black;
+    width:calc((100% / 3) - 70px);
+    display: inline-block;
+    
+    
+    
+    
+}
+
+.card-center{
+    margin: 30px 70px 0 70px;
+
+
+}
+
+
+.card-top{
+   border-bottom: 1px solid black;
+   text-align: center;
+
+}
+
+.card-bottom{
+    
+}
+
