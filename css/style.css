@@ -165,9 +165,26 @@ section p , .btn{
     width: 70%;
     height: 100vh;
     background-color: #0061ff;
-    margin: 0 auto;
+    margin: 10% auto;
 }
 
+.main-h1{
+    text-align: center;
+
+}
+
+.fake-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+main p , .fake-btn{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
 
     
     
