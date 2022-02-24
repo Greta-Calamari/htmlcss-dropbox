@@ -21,6 +21,7 @@ body {
 
 ul {
   display: inline-block;
+  list-style: none;
 }
 
 ul a {
@@ -46,7 +47,7 @@ ul a {
   vertical-align: middle;
 }
 
-li {
+nav li {
   display: inline-block;
   margin-left: 20px;
 }
@@ -116,9 +117,9 @@ section p,
 
 .container-main {
   width: 70%;
-  height: 100vh;
-
+  
   margin: 10% auto;
+  
 }
 
 
@@ -140,7 +141,7 @@ section p,
     /* Bottom Left */ inset 2.5px 2.5px 0 #0061ff; /* Top Left */
 }
 
-main p, span,
+
 .fake-btn {
   display: inline-block;
   vertical-align: middle;
@@ -162,40 +163,69 @@ main span{
 
 
 
-.main-h1 h1{
-    font-size: 50px;
+.container-plan{
+    display: flex;
+    max-width: 60%;
+
+}
+.margin-black{
+    border-bottom:1px solid black;
+    text-align: center;
 }
 
-.box-plan{
-    
-    
-    background-color: #b4d0e7;
-}
-
-.card{
-    border: 1px solid black;
-    width:calc((100% / 3) - 70px);
-    display: inline-block;
-    
+.containers{
+    border:1px solid black ;
     
     
     
 }
 
-.card-center{
-    margin: 30px 70px 0 70px;
-
+.btn1 a{
+  border: 3px solid #0061ff;
+  background-color: #0061ff;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px 0 30px 0;
 
 }
 
+.link{
+    color: #0061ff;
+    text-decoration: underline lightblue;
+    
+}
 
-.card-top{
-   border-bottom: 1px solid black;
-   text-align: center;
+.line{
+   width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    
 
 }
 
+.check::before{
+    content: '\2713';
+    color: #0061ff;
+    font-weight: 900;
+
+
+}
 .card-bottom{
-    
+    padding: 10%;
 }
+
+.card-bottom p{
+    line-height: 40px;
+
+}
+
+.card-bottom p{
+    font-size: 15px;
+}
+
 
