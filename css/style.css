@@ -30,13 +30,13 @@ ul{
 
 .nav-bar{
     width: 100%;
-    
     background-color: brown;
+    
 
 }
 
 .nav-bar-right{
-   padding-left: 70%;
+   margin-left: 70%;
   
 }
 
@@ -46,6 +46,27 @@ li{
     
     
 }  
+
+.sub-header{
+    width: 100%;
+    height: 800px;
+    background-color: green;
+}
+
+.btn a{
+    width: 8%;
+    border: 20px solid blue;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}    
+    
+    
+    
+
+
+
 
 
 
