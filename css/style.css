@@ -172,7 +172,7 @@ section p,
 
 .bold-prize{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
 
 }
 
@@ -208,18 +208,19 @@ section p,
 
 .container-plan{
     display: flex;
-    max-width: 50%;
+    max-width: 60%;
+    margin-left: -1%;
 
 }
 .margin-black{
-    border-bottom:1px solid black;
+    border-bottom:1px solid lightgray;
     text-align: center;
     padding: 8px 0;
 }
 
 .containers{
-    border:1px solid black ;
-    margin: 40px 0;
+    border:1px solid lightgrey ;
+    margin: 60px 30px;
     
     
     
@@ -240,7 +241,7 @@ section p,
 
 .link{
     color: #0061ff;
-    text-decoration: underline lightblue;
+    text-decoration: underline lightgray;
     
 }
 
@@ -267,7 +268,20 @@ section p,
     padding: 10%;
 }
 
+/* only container */
 
+.only-container{
+  border: 1px solid black;
+  max-width: 58%;
+  height: 30vh;
+}
+
+.line-bottom{
+  border-bottom: 1px solid lightgray;
+  padding: 1% 0;
+  text-align: center;
+  
+}
 
 
 
