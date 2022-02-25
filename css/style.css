@@ -17,7 +17,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   max-width: 90%;
 }
 
@@ -66,6 +66,7 @@ nav li {
 
 .sub-header {
   background-color: #b4d0e7;
+  width: 100vw;
 }
 
 .btn a {
@@ -439,16 +440,25 @@ section p,
 
 /* fine box */
 
+/* inizio footer */
+.container-footer{
+  width: 60vw;
+}
+
+
+
+
 .column-box{
-  width: 100%;
-  height: 800px;
+  width:88vw;
+  height: 500px;
   
 
 
 }
 
 .col-left{
-  width: calc(100% / 2);
+  width: calc(45% / 2);
+  float: left;
 
 }
 
@@ -459,6 +469,9 @@ section p,
   
   
 }
+
+
+/* quadrati colorati con logo */
 
 #desi{
   background-color:#a2d39b;
@@ -516,5 +529,60 @@ section p,
 }
 
 
+  /* colonna centrale */
+  .col-center{
+    float: left;
+    max-width: 40%;
+    height: 100%;
+    
+
+    
+    
+  }
+
+  .desi-little svg{
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10%;
+
+  }
+
+  .col-center p{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+
+  .margin-p{
+    margin-top: 10%;
+  }
+    
+    
   
   
+
+
+
+
+  /* quadrati colorati con brand parte 2 */
+
+.col-right{
+  width: calc((100% / 2) - 111px);
+  float: right;
+}
+
+
+
+
+
+
+/* box colore */
+
+.box-color{
+  width: 100%;
+  height: 500px;
+  background-color: #b4d0e7;
+  
+}
+
