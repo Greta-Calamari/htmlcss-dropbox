@@ -462,22 +462,59 @@ section p,
 
 #desi{
   background-color:#a2d39b;
-  
-  
-}
-.logo-box svg{
-  width: 50%;
-  fill: #fff;
-  display:block;
-  margin:20%  auto;
-
-  
-  
 }
 
 #asu{
   background-color: #61082b;
 }
-.logo-box{
+
+#florida{
+  background-color:#0093ce ;
  
 }
+#topps{
+  background-color: #ff1c1c;
+}
+  
+
+
+.svg-desi{
+  color: #fff;
+  width: 50%;
+  fill: #fff;
+  display:block;
+  margin:30%  auto;
+}
+.svg-asu{
+  color: #fff;
+  width: 50%;
+  fill: #fff;
+  display:block;
+  margin:0 auto ;
+}
+.svg-florida{
+  color: #fff;
+  width: 80%;
+  fill: #fff;
+  display:block;
+  margin:40% 10% 0px 12%;
+  
+}
+
+.svg-topps{
+  color: #fff;
+  width: 50%;
+  fill: #fff;
+  display:block;
+  margin:10%  auto;
+}
+.svg-florida path{
+  fill: #fff;
+}
+.svg-topps path{
+  fill: #fff;
+}
+
+
+  
+  
