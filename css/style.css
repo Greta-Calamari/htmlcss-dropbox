@@ -667,9 +667,47 @@ section p,
 .footer-list h3{
   padding: 20px 0;
 
-
-
 }
+
+
+/* finale */
+
+
+.line-up{
+  border-top: 1px solid lightgray;
+  padding-top: 5%;
+}
+
+.dropdown {
+  margin-top: 10%;
+  padding: 0  2%;
+  color: lightgrey;
+  
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  
+}
+
+.dropdown-content p{
+  font-size: 15px;
+  color: lightgray;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 
   
 
