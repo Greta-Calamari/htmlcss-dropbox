@@ -41,16 +41,21 @@ ul a {
 
 .nav-bar img {
   width: 22%;
+  vertical-align: middle;
+  
 }
 
 .nav-left {
   float: left;
   vertical-align: middle;
+  
+  
 }
 
 .nav-right {
   float: right;
   vertical-align: middle;
+  
 }
 
 nav li {
@@ -63,7 +68,7 @@ nav li {
 }
 
 .btn a {
-  border: 10px solid #0061ff;
+  border: 20px solid #0061ff;
   background-color: #0061ff;
   color: #fff;
   text-decoration: none;
@@ -73,7 +78,7 @@ nav li {
 
 .btn-little {
   background-color: #0061ff;
-  padding: 10px;
+  padding:0 10px;
   color: #fff;
   text-decoration: none;
   display: inline-block;
@@ -92,8 +97,8 @@ section p,
 }
 
 .text-contained h1 {
-  font-size: 113px;
-  padding: 3% 0 2% 5%;
+  font-size: 57px;
+  padding: 15% 0 2% 5%;
   display: inline-block;
   margin: 0 auto;
 }
@@ -104,25 +109,25 @@ section p,
 }
 
 .jumbotron img {
-  width: 50%;
+  width: 45%;
   padding-top: 5%;
 }
 
 .sub-header {
   position: relative;
-  height: 900px;
+  min-height: 800px;
 }
 
 .jumbotron {
   position: absolute;
-  right: -10%;
-  bottom: -10%;
+  right: -110%;
+  bottom: -8%;
 }
 
 /* main */
 
 .container-main {
-  width: 70%;
+  width: 103%;
   margin: 10% auto;
   
   
@@ -161,8 +166,9 @@ section p,
 
 
 .main-h2{
-  font-size: 40px;
-  padding: 4% 0;
+  font-size: 30px;
+  padding: 4% 0%;
+  
 }
 
 /* fine titolo */
@@ -214,7 +220,7 @@ section p,
 
 .container-plan{
     display: flex;
-    max-width: 60%;
+    max-width: 100%;
     margin-left: -1%;
 
 }
@@ -277,9 +283,11 @@ section p,
 /* only container */
 
 .only-container{
-  border: 1px solid black;
-  max-width: 58%;
-  height: 30vh;
+  border: 1px solid lightgray;
+  max-width: 95%;
+  margin: 0px 1%;
+  
+
 }
 
 .line-bottom{
@@ -289,5 +297,79 @@ section p,
   
 }
 
+.sub-only-container{
+  padding: 30px;
+}
+
+.sub-only-container .btn{
+  float: right;
+  margin-top: -6%;
+  
+
+}
+.sub-only-container h4{
+  font-size: 30px;
+}
+.sub-only-container p{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.sub-only-container span{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+
+/* fine box */
+
+.container-{
+  padding:10%;
+}
+
+.partner-img img{
+  width: 40%;
+  height: 40%;
+  float: left;
+  
+}
+
+.float-right{
+  float: right;
+  max-width: 50%;
+  
+}
+
+.float-right h4{
+  font-size: 30px;
+  
+}
+
+.float-right p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 5%;
+
+}
+
+.btn-white{
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10%;
+  
+  
+  
+}
+
+.btn-white a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+
+}
 
 
