@@ -11,6 +11,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
+  min-width: 1200px;
 }
 
 .container {
@@ -30,7 +31,12 @@ ul a {
 }
 
 .nav-bar {
-  padding: 1%;
+  padding: 1% ;
+  width: 98%;
+  position: fixed;
+  z-index: 12000;
+  background-color: #fff;
+ 
 }
 
 .nav-bar img {
@@ -86,8 +92,8 @@ section p,
 }
 
 .text-contained h1 {
-  font-size: 122px;
-  padding: 2% 0 2% 5%;
+  font-size: 113px;
+  padding: 3% 0 2% 5%;
   display: inline-block;
   margin: 0 auto;
 }
@@ -109,7 +115,7 @@ section p,
 
 .jumbotron {
   position: absolute;
-  right: -15%;
+  right: -10%;
   bottom: -10%;
 }
 
