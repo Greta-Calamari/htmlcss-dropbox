@@ -759,9 +759,39 @@ section p,
 
 
 
+
+/* dropdown nav bar */
+
+
+.hidden{
+  display: none;
+  position: absolute;
+  top: 40px;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 20px 20px;
+  z-index: 1;
   
+}
+
+.hidden li{
+  font-size: 15px;
+  color: black;
+  
+}
+
+.hover:hover .hidden{
+  display: inline-block;
+}
+
+
+ 
+
 
   
+
+
 
 
 
