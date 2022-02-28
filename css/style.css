@@ -680,6 +680,7 @@ section p,
  .ultimate-list{
   line-height: 70px;
   font-weight: 600;
+  position: relative;
 }
 
 .list-h2{
@@ -796,8 +797,43 @@ section p,
 }
 
 
- 
 
+/* dropdown faq */
+
+
+
+
+
+.hidden-faq{
+  display:none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  
+
+}
+
+.hidden-faq span{
+  font-size: 15px;
+  color: black;
+}
+
+.faq:hover .hidden-faq{
+  display:inline-block;
+  
+}
+
+
+/* linea hover */
+
+.line-down{
+  border-bottom: 1px solid black;
+  display: none;
+  
+}
 
   
 
