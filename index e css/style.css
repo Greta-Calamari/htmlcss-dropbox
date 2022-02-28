@@ -69,7 +69,7 @@
   .sub-header {
     position: relative;
     min-height: 800px;
-    background-color: #b4d0e7;
+    background-color: black;
     
   }
   
@@ -100,6 +100,7 @@
     float: left;
     width: 50%;
     padding: 0 5%;
+    color: white;
   }
   
   .text-contained h1 {
@@ -107,6 +108,7 @@
     padding: 15% 0 2% 5%;
     display: inline-block;
     margin: 0 auto;
+    color: white;
   }
   
   
@@ -443,86 +445,7 @@
   
   
   
-  .column-box{
-    height: 300px;
-    
-    
   
-  
-  }
-  
-  .col-left{
-    width: 25%;
-    float: left;
-  
-  }
-  
-  .logo-box{
-    width: 150px;
-    height: 150px;
-    float: left;
-    
-    
-  }
-  
-  
-  /* quadrati colorati con logo */
-  
-  #desi{
-    background-color:#a2d39b;
-  }
-  
-  #asu{
-    background-color: #61082b;
-  }
-  
-  #florida{
-    background-color:#0093ce ;
-   
-  }
-  #topps{
-    background-color: #ff1c1c;
-  }
-    
-  
-  
-  .svg-desi{
-    color: #fff;
-    width: 50%;
-    fill: #fff;
-    display:block;
-    margin:10%  auto;
-  }
-  .svg-asu{
-    color: #fff;
-    width: 50%;
-    fill: #fff;
-    display:block;
-    margin:-50% auto ;
-  }
-  .svg-florida{
-    color: #fff;
-    width: ;
-    fill: #fff;
-    display:block;
-    margin-top: 40%;
-    
-    
-  }
-  
-  .svg-topps{
-    color: #fff;
-    width: 50%;
-    fill: #fff;
-    display:block;
-    margin:-10% 0 0 25%;
-  }
-  .svg-florida path{
-    fill: #fff;
-  }
-  .svg-topps path{
-    fill: #fff;
-  }
   
   
     /* colonna centrale */

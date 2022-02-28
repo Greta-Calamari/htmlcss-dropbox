@@ -9,6 +9,11 @@
   display: table;
   clear: both;
 }
+
+
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   max-width: 1200px;
@@ -22,6 +27,8 @@ body {
   width: 100%;
   max-width: 90%;
 }
+
+
 
 ul {
   
