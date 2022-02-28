@@ -680,10 +680,12 @@ section p,
 
 }
 
-.arrow-down{
-  float: right;
-  padding:2% 2%;
+.arrow-d{
+  float: left;
+  padding:5% 5%;
+  font-size: 50px;
 }
+
 
 .ultimate-list li{
   border-bottom: 1px solid lightgrey;
